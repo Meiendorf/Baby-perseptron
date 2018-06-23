@@ -1,0 +1,50 @@
+﻿
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+}
+.MainTitle {
+    color: white;
+    margin-right: 25px;
+    font-size:30px;
+    font-family: 'Courier New';
+}
+#title {
+    color: white;
+    margin-right: 25px;
+    font-size: xx-large;
+    font-family: 'Courier New';
+}
+#canvas
+{
+    resize: none;
+    width: 280px;
+    height: 280px;
+    top:50%;
+    left:50%;
+    background-color : white;
+    border: solid 2px black inset;
+}
+
+.main_but {
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    font-size: medium;
+    background-color: dimgray;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 25px;
+    font-family: 'Courier New';
+}
+.main_but:hover
+{
+    cursor:pointer;
+    transition : background-color 0.1s;
+    background-color : lightslategrey;
+}
